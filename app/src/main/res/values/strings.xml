@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PetDoc</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pet">Питомец:</string>
+    <string name="docType">Специализация врача:</string>
+    <string name="doc">Врач:</string>
+    <string name="datetime">Дата и время:</string>
+    <string name="price">Цена:</string>
+    <string name="priceField">0 Руб</string>
+    <string name="back">Назад</string>
+    <string name="create">Создать</string>
+    <string name="preOrderedAppointments">Предварительные записи на прием:</string>
+    <string name="login">Логин:</string>
+    <string name="password">Пароль:</string>
+    <string name="logIn">Вход</string>
+    <string name="singUp">Регистрация</string>
+    <string name="petName">Имя питомца:</string>
+    <string name="petAge">Возраст (лет):</string>
+    <string name="petType">Тип питомца:</string>
+    <string name="anamnesis">Анамнез заболеваний питомца:</string>
+    <string name="pets">Ваши питомцы:</string>
+    <string name="email">Email:</string>
+    <string name="phone">Телефон:</string>
+    <string name="registration">Зарегистрироваться</string>
+    <string name="paidAppointments">Оплаченные записи:</string>
+    <string name="chats">Чаты:</string>
+</resources>

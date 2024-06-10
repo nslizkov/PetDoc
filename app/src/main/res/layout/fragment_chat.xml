@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chat.ChatFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id = "@+id/chatScroller"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ChatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageButton
+            android:id="@+id/videocall_button"
+            android:background="@drawable/round_background"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitCenter"
+            android:src = "@drawable/videocall"/>
+
+        <EditText
+            android:id="@+id/messageSendText"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/messageSend_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/round_background"
+            android:src = "@drawable/send" />
+    </LinearLayout>
+</LinearLayout>

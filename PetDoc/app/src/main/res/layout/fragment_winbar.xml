@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    tools:context=".ui.entry.EntryFragment"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:id="@+id/winbar_linlay">
+
+
+    <ImageButton
+        android:id="@+id/pets_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:insetLeft="5dp"
+        android:insetRight="5dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/round_left_background"
+        android:src = "@drawable/pets" />
+
+    <ImageButton
+        android:id="@+id/chat_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:insetLeft="5dp"
+        android:insetRight="5dp"
+        android:scaleType="fitCenter"
+        android:background="@color/green"
+        android:src = "@drawable/chat"
+        />
+
+    <ImageButton
+        android:id="@+id/appointments_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:insetLeft="2dp"
+        android:insetRight="2dp"
+        android:scaleType="fitCenter"
+        android:background="@color/green"
+        android:src = "@drawable/appointmets"/>
+
+    <ImageButton
+        android:id="@+id/schedule_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:insetLeft="2dp"
+        android:insetRight="5dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/round_right_background"
+        android:src = "@drawable/schedule"
+/>
+</LinearLayout>

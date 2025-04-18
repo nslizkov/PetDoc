@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.appointments.AppointmentsFragment"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/preOrderedAppointments"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/soft_green">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id = "@+id/chatScroller"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/appointmentsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+
+
+            <ImageButton
+                android:id="@+id/appendAppointment_button"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/round_left_background"
+                android:src = "@drawable/appointmets_add"/>
+
+            <TextView
+                android:id="@+id/totalCost"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text = "@string/priceField"
+                android:background="@color/green"
+                android:gravity="center"
+                android:textColor="@color/white"
+                ></TextView>
+
+            <ImageButton
+                android:id="@+id/payAppointments_button"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/round_right_background"
+                android:src = "@drawable/pay"/>
+        </LinearLayout>
+
+
+</LinearLayout>

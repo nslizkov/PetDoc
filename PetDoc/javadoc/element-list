@@ -1,0 +1,17 @@
+com.example.petdoc
+com.example.petdoc.data.data_retrofit
+com.example.petdoc.data.data_room.dao
+com.example.petdoc.data.data_room.database
+com.example.petdoc.data.entities
+com.example.petdoc.data.repositories
+com.example.petdoc.databinding
+com.example.petdoc.ui.adapters
+com.example.petdoc.ui.appointments
+com.example.petdoc.ui.chat
+com.example.petdoc.ui.entry
+com.example.petdoc.ui.navigation
+com.example.petdoc.ui.pets
+com.example.petdoc.ui.registration
+com.example.petdoc.ui.schedule
+com.example.petdoc.ui.staff
+com.example.petdoc.ui.view_models
